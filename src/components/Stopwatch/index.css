@@ -1,0 +1,68 @@
+.mainDiv {
+  background-size: 100% 100%;
+  height: 100vh;
+  margin: 10px 0px 0px 50px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+}
+.imgTimerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+.stopWatchDiv {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.timerPara {
+  margin: 0px 0px 0px 5px;
+}
+.time {
+  margin: 5px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: Roboto;
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.s {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+.statrtBtn {
+  background-color: #1db05f;
+  color: #ffff;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+.stopBtn {
+  background-color: #ef0d36;
+  border: none;
+  color: #ffff;
+  border-radius: 3px;
+  outline: none;
+}
+.resetBtn {
+  background-color: #eaa800;
+  border: none;
+  color: #ffff;
+  border-radius: 3px;
+  outline: none;
+}
+@media screen and (max-width: 480px) {
+  .mainDiv {
+    background-size: 100% 100%;
+    height: 100vh;
+    margin: 10px 0px 0px 50px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  }
+}
